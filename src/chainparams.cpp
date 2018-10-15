@@ -135,10 +135,7 @@ public:
         assert(hashGenesisBlock == uint256("0x000008f98da9a790d44ff144e24262fe56d9f7ce7000b7c30c84c45da5c895a9"));
         assert(genesis.hashMerkleRoot == uint256("0xd937e75cb33178449539789d86288a0cf8280a095113c0ef19a3a2f1cdff1c7b"));
 		
-        vSeeds.push_back(CDNSSeedData("194.87.101.240", "194.87.101.240"));
-		vSeeds.push_back(CDNSSeedData("195.133.197.91", "195.133.197.91"));
-		vSeeds.push_back(CDNSSeedData("alfa.kraitcoin.net", "alfa.kraitcoin.net"));
-		vSeeds.push_back(CDNSSeedData("beta.kraitcoin.net", "beta.kraitcoin.net"));
+        vSeeds.push_back(CDNSSeedData("seed1.kraitcoin.pw", "seed1.kraitcoin.pw"));
 		
 
 		
@@ -218,7 +215,7 @@ public:
         //assert(hashGenesisBlock == uint256("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("194.87.101.240", "194.87.101.240"));
+        vSeeds.push_back(CDNSSeedData("seed1.kraitcoin.pw", "seed1.kraitcoin.pw"));
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet krait addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet krait script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
